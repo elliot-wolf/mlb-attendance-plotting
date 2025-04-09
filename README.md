@@ -90,12 +90,20 @@ from mlbattendanceplotter.plotting import scatter_yearly
 scatter_yearly(x="payroll_est", y = "win_pct", team = None, year = None, lobf=True)
 ```
 
+```sh
+from mlbattendanceplotter.plotting import scatter_yearly
+
+scatter_yearly(x="pct_walk", y = "attendance%", team = None, year = 2018, lobf=True)
+```
+
 ## scatter_3d()
 ```sh
 from mlbattendanceplotter.plotting import scatter_3d
 
 scatter_3d(x = "win_pct", y = "payroll_est", z = "attendance%", team = None, year = None, time = "yearly")
 ```
+
+
 
 
 # Credits/Citations
