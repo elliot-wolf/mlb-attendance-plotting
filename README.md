@@ -4,7 +4,7 @@ This project was designed with the goal of allowing the user to easily plot atte
 
 # Repository Organization
 
-> **A:** Because you don't want to test the code, you want to test the *program*.
+>
 
     .
     ├── ...
@@ -14,7 +14,7 @@ This project was designed with the goal of allowing the user to easily plot atte
     │   └── unit                # Unit tests
     └── ...
 
-> **Samples**: 
+>
 
 
 # Package Requirements
