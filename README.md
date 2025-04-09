@@ -1,7 +1,6 @@
 # About
 
 # Repository Organization
-mlb-attendance-plotting/ ├── mlbattendanceplotter/ # Main package directory │ ├── data/ # Folder containing input CSV files │ │ ├── bref_2012_2019.csv │ │ ├── weather_2012_2019.csv │ │ ├── census_2012_2019.csv │ │ └── stadium_data.csv │ ├── init.py │ ├── plotting.py # Plotting functions │ └── processing.py # Data loading and preprocessing ├── tests/ # Pytest test cases │ └── test_plotting.py ├── setup.py # Package installation script ├── README.md # Project documentation └── .gitignore
 
 # Package Requirements
 This package relies on the following packages:
@@ -36,6 +35,9 @@ These packages are automatically installed if the installation instructions are 
 
 
 # Example Use
+
+
+# Credits/Citations
 
 
 
