@@ -83,5 +83,12 @@ from mlbattendanceplotter.plotting import scatter_daily
 scatter_daily(x = "tavg", y = "attendance", team = "NYY", year = 2018, lobf = True)
 ```
 
+## scatter_yearly()
+```sh
+from mlbattendanceplotter.plotting import scatter_yearly
+
+scatter_yearly(x="payroll_est", y = "win_pct", team = None, year = None, lobf=True)
+```
+
 
 # Credits/Citations
