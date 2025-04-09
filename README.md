@@ -4,6 +4,14 @@ This project was designed with the goal of allowing the user to easily plot atte
 
 # Repository Organization
 
+.
+├── ...
+├── test                    # Test files (alternatively `spec` or `tests`)
+│   ├── benchmarks          # Load and stress tests
+│   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
+│   └── unit                # Unit tests
+└── ...
+
 # Package Requirements
 This package relies on the following packages:
 - pandas
