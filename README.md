@@ -66,11 +66,7 @@ These packages are automatically installed if the installation instructions are 
 ```sh
 from mlbattendanceplotter.plotting import bar_attendance_by_time
 
-bar_attendance_by_time(
-    by="month",
-    team="BOS",
-    attendance="%"
-)
+bar_attendance_by_time(by = "month", team = "BOS", year = 2018, show_league_avg=True, attendance="raw")
 ```
 
 
