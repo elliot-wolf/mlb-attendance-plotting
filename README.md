@@ -76,5 +76,12 @@ from mlbattendanceplotter.plotting import bar_by_team
 bar_by_team(y = "attendance%", year = 2013)
 ```
 
+## scatter_daily()
+```sh
+from mlbattendanceplotter.plotting import scatter_daily
+
+scatter_daily(x = "tavg", y = "attendance", team = "NYY", year = 2018, lobf = True)
+```
+
 
 # Credits/Citations
