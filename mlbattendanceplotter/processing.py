@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 
 variable_dict = {
     "date" : "Date",
@@ -61,6 +62,8 @@ team_abb_dict = {
     "WSN" : "Washington Nationals",
 }
 
+DATA_DIRECTORY = os.path.join(os.path.dirname(__file__), "data")
+
 def load_data():
     """
     Loads and returns necessary data from CSV files.
@@ -68,9 +71,9 @@ def load_data():
         'bref_2012_2019.csv', 'weather_2012_2019.csv', and 'census_2012_2019.csv' are in the project directory.
     Returns a tuple of three Dataframes: games, weather, and census.
     """
-    games = pd.read_csv('bref_2012_2019.csv')
-    weather = pd.read_csv('weather_2012_2019.csv')
-    census = pd.read_csv('census_2012_2019.csv')
+    games = pd.read_csv(os.path.join(DATA_DIRECTORY, 'bref_2012_2019.csv'))
+    weather = pd.read_csv(os.path.join(DATA_DIRECTORY, 'weather_2012_2019.csv'))
+    census = pd.read_csv(os.path.join(DATA_DIRECTORY, 'census_2012_2019.csv'))
     return games, weather, census
 
 def process_yearly(games, weather, census, team=None, year=None):
