@@ -7,7 +7,7 @@ This project was designed with the goal of allowing the user to easily plot atte
 >
     .
     ├── mlbattendanceplotter
-    │   ├── __init__.py          # Initialization
+    │   ├── __init__.py                    # Initialization
     │   ├── plotting.py         
     │   └── processing.py  
     │   └── data 
@@ -15,11 +15,11 @@ This project was designed with the goal of allowing the user to easily plot atte
     │           ├── census_2012_2019.csv 
     │           ├── weather_2012_2019.csv 
     │           └── stadium_data.csv               
-    ├── tests                 # Test files 
+    ├── tests                             # Test files 
     │   ├── test_plotting.py          
     │   ├── test_processing.py         
     │   └── unit                
-    ├── processing-notebooks
+    ├── processing-notebooks              # Used for data cleaning. Not necessary for the user
     │   ├── clean_census_data.ipynb       
     │   ├── clean_gamedata.ipynb         
     │   └── clean_weather_data.ipynb                
