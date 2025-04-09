@@ -2,7 +2,8 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.express as px
-from processing import variable_dict, team_abb_dict, process_yearly, process_daily, group_attendance_by_time, load_data
+from .processing import variable_dict, team_abb_dict, process_yearly, process_daily, group_attendance_by_time, load_data
+
 
 
 games, weather, census = load_data()
