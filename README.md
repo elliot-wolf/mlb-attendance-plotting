@@ -62,5 +62,16 @@ These packages are automatically installed if the installation instructions are 
 
 # Example Use
 
+## bar_attendance_by_time()
+```sh
+from mlbattendanceplotter.plotting import bar_attendance_by_time
+
+bar_attendance_by_time(
+    by="month",
+    team="BOS",
+    attendance="%"
+)
+```
+
 
 # Credits/Citations
