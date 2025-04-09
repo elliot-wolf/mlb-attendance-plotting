@@ -4,15 +4,17 @@ This project was designed with the goal of allowing the user to easily plot atte
 
 # Repository Organization
 
-   .
+> **A:** Because you don't want to test the code, you want to test the *program*.
+
+    .
     ├── ...
-    ├── docs                    # Documentation files (alternatively `doc`)
-    │   ├── TOC.md              # Table of contents
-    │   ├── faq.md              # Frequently asked questions
-    │   ├── misc.md             # Miscellaneous information
-    │   ├── usage.md            # Getting started guide
-    │   └── ...                 # etc.
+    ├── test                    # Test files (alternatively `spec` or `tests`)
+    │   ├── benchmarks          # Load and stress tests
+    │   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
+    │   └── unit                # Unit tests
     └── ...
+
+> **Samples**: 
 
 
 # Package Requirements
