@@ -69,5 +69,12 @@ from mlbattendanceplotter.plotting import bar_attendance_by_time
 bar_attendance_by_time(by = "month", team = "BOS", year = 2018, show_league_avg=True, attendance="raw")
 ```
 
+## bar_by_team()
+```sh
+from mlbattendanceplotter.plotting import bar_by_team
+
+bar_by_team(y = "attendance%", year = 2013)
+```
+
 
 # Credits/Citations
