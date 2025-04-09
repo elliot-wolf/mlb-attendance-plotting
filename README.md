@@ -55,7 +55,7 @@ These packages are automatically installed if the installation instructions are 
    from mlbattendanceplotter.processing import *
    from mlbattendanceplotter.plotting import *
    ``` 
-
+4. Create a new .py or .ipynb (recommended) for your own use.
 
 
 
