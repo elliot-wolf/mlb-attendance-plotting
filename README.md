@@ -111,7 +111,38 @@ from mlbattendanceplotter.plotting import scatter_3d
 scatter_3d(x = "win_pct", y = "payroll_est", z = "attendance%", team = None, year = None, time = "yearly")
 ```
 
+# Further Exploration
 
+## Troubleshooting
+
+### Team Abbreviations
+Team abbreviations are used when plotting teams of interest. To see a list of team abbreviations, run the following:
+```sh
+team_abb_dict
+```
+
+### Variables
+To see a dictionary of variables to choose from, run the following:
+```sh
+variable_dict
+```
+
+## Further Analysis
+Please feel free to use the data to create your own analysis / plots. To access the data outside of the plotting functions, do the following:
+
+```sh
+load_data()
+```
+
+If you want data on a yearly basis, run the following code. Team and year arguments are optional:
+```sh
+yearly_df = process_yearly(games, weather, census, team = None, year = None)
+```
+
+If you want data on a daily basis, run the following code. Team and Year arguments are optional:
+```sh
+daily_df = process_daily(games, weather, team = None, year = None)
+```
 
 
 # Credits/Citations
