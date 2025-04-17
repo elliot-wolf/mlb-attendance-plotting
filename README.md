@@ -209,3 +209,12 @@ daily_df = process_daily(games, weather, team = None, year = None)
 
 
 # Credits/Citations
+
+## Packages
+- pybaseball: Helped extract data from Baseball Reference in the creation of 'bref_2012_2019.csv'
+- meteostat: Extracted daily weather data from stations across all teams to create 'weather_2012_2019.csv'
+- census: Assisted in collecting census data from US MLB teams to create 'census_2012_2019.csv'
+
+## Websites
+- [Seamheads Ballparks Database](https://www.seamheads.com/ballparks/): Allowed me to manually collect MLB stadium capacities to create 'stadium_data.csv'
+- [Baseball Reference](https://www.baseball-reference.com/): In addition to attendance and game data, payroll estimates were collected and placed in 'stadium_data.csv'
