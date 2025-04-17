@@ -120,6 +120,7 @@ Team abbreviations are used when plotting teams of interest. To see a list of te
 ```sh
 team_abb_dict
 ```
+```python
 'ARI': 'Arizona Diamondbacks',
  'ATL': 'Atlanta Braves',
  'BAL': 'Baltimore Orioles',
@@ -150,6 +151,7 @@ team_abb_dict
  'TEX': 'Texas Rangers',
  'TOR': 'Toronto Blue Jays',
  'WSN': 'Washington Nationals'
+```
 
 ### Variables
 To see a dictionary of variables to choose from, run the following:
