@@ -122,7 +122,7 @@ team_abb_dict
 ```
 Output:
 ```python
-'ARI': 'Arizona Diamondbacks',
+ 'ARI': 'Arizona Diamondbacks',
  'ATL': 'Atlanta Braves',
  'BAL': 'Baltimore Orioles',
  'BOS': 'Boston Red Sox',
@@ -158,6 +158,34 @@ Output:
 To see a dictionary of variables to choose from, run the following:
 ```sh
 variable_dict
+```
+Output:
+``` python
+'date': 'Date',
+ 'year': 'Year',
+ 'team': 'Team',
+ 'win_pct': 'Win %',
+ 'attendance': 'Attendance',
+ 'attendance%': 'Stadium Capacity Filled (%)',
+ 'num_home_game': 'Home Game #',
+ 'opp': 'Opponent',
+ 'opp_win_pct': 'Opponent Win %',
+ 'start_time': 'Start Time (Day/Night)',
+ 'cli': 'Championship Leverage Index',
+ 'tavg': 'Average Daily Temperature (°F)',
+ 'tmin': 'Minimum Daily Temperature (°F)',
+ 'tmax': 'Maximum Daily Temperature (°F)',
+ 'prcp': 'Daily Precipitation (inches)',
+ 'city': 'City/Team',
+ 'population': 'Population',
+ 'median_age': 'Median Age',
+ 'median_household_income': 'Median Household Income',
+ 'average_household_size': 'Average Household Size',
+ 'pct_public_transit': '% Commute to Work via Public Transit',
+ 'pct_car': '% Commute to Work via Car',
+ 'pct_walk': '% Commute to Work via Walking',
+ 'poverty_rate': 'Poverty Rate',
+ 'payroll_est': 'Estimated Team Payroll ($)'
 ```
 
 ## Further Analysis
