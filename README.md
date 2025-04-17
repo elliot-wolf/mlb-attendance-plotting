@@ -200,7 +200,7 @@ If you want data on a yearly basis, run the following code. Team and year argume
 yearly_df = process_yearly(games, weather, census, team = None, year = None)
 ```
 
-If you want data on a daily basis, run the following code. Team and Year arguments are optional:
+If you want data on a daily basis (does not include census data), run the following code. Team and Year arguments are optional:
 ```sh
 daily_df = process_daily(games, weather, team = None, year = None)
 ```
