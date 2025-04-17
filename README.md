@@ -111,7 +111,7 @@ from mlbattendanceplotter.plotting import scatter_3d
 scatter_3d(x = "win_pct", y = "payroll_est", z = "attendance%", team = None, year = None, time = "yearly")
 ```
 
-# Further Exploration
+# Troubleshooting & Additional References
 
 ## Troubleshooting
 
