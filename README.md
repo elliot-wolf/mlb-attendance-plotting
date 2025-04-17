@@ -17,8 +17,8 @@ This project was designed with the goal of allowing the user to easily plot atte
     │           └── stadium_data.csv               
     ├── tests                             # Test files 
     │   ├── test_plotting.py          
-    │   ├── test_processing.py         
-    │   └── unit                
+    │   ├── test_processing.py
+    |                      
     ├── processing-notebooks              # Used for data cleaning. Not necessary for the user
     │   ├── clean_census_data.ipynb       
     │   ├── clean_gamedata.ipynb         
