@@ -120,6 +120,7 @@ Team abbreviations are used when plotting teams of interest. To see a list of te
 ```sh
 team_abb_dict
 ```
+Output:
 ```python
 'ARI': 'Arizona Diamondbacks',
  'ATL': 'Atlanta Braves',
