@@ -1,6 +1,6 @@
 # About
 
-This project was designed with the goal of allowing the user to easily plot attendance trends across the MLB from 2012 to 2019. Three data sources are considered when examining trends: game data (taken from Baseball Reference), weather data (Meteostat), and census data (US Census). There are a wide range of explanations as to why attendance might fluctuate around the league, or why a specific team might see year-to-year changes in attendance. This package aims to explain attendance trends through multiple lenses, and the user is encouraged to see how various factors may be influencing attendance numbers behind the scenes. 
+This project was designed with the goal of allowing the user to plot attendance trends across the MLB from 2012 to 2019 with minimal effort from the user's end. Three data sources are considered when examining trends: game data (taken from Baseball Reference), weather data (Meteostat), and census data (US Census). There are a wide range of explanations as to why attendance might fluctuate around the league, or why a specific team might see year-to-year changes in attendance. This package aims to explain attendance trends through multiple lenses, and the user is encouraged to explore how various factors may be influencing attendance numbers behind the scenes. 
 
 # Repository Organization
 
