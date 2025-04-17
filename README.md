@@ -49,13 +49,14 @@ These packages are automatically installed if the installation instructions are 
    ```sh
    pip install .
    ``` 
+3. Create a new .py or .ipynb for your own use.
 
-3. Import necessary functions
+4. Import necessary functions
    ```sh
    from mlbattendanceplotter.processing import *
    from mlbattendanceplotter.plotting import *
    ``` 
-4. Create a new .py or .ipynb (recommended) for your own use.
+
 
 
 
