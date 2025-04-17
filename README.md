@@ -115,6 +115,8 @@ scatter_3d(x = "win_pct", y = "payroll_est", z = "attendance%", team = None, yea
 
 ## Troubleshooting
 
+Since Toronto is not in the US, census data was not collected and will not be plotted for the Toronto Blue Jays. In addition, some team/year combinations lack missing values due to weather station errors or missing census data. These aren't common, but just be aware that some team/year combos are missing a few variables.
+
 ### Team Abbreviations
 Team abbreviations are used when plotting teams of interest. To see a list of team abbreviations, run the following:
 ```sh
