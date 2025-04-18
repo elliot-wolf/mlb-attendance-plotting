@@ -88,6 +88,8 @@ bar_attendance_by_time(by="month", year = 2013, team = "PIT", show_league_avg=Tr
 
 ## bar_by_team()
 - Type `bar_by_team?` to see valid inputs.
+
+### Example
 ```sh
 from mlbattendanceplotter.plotting import bar_by_team
 
