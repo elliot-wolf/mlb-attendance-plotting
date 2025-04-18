@@ -101,12 +101,16 @@ bar_by_team(y = 'prcp', year = 2012)
 
 ## scatter_daily()
 - Type `scatter_daily?` to see valid inputs.
-  
+
+### Example
 ```sh
 from mlbattendanceplotter.plotting import scatter_daily
 
-scatter_daily(x = "tavg", y = "attendance", team = "NYY", year = 2018, lobf = True)
+scatter_daily(x = 'tavg', y = 'attendance', team = 'NYY', year = 2012, lobf=True, show_prcp=False)
 ```
+![Temperature's Influence on Attendance (New York Yankees, 2012)](images/scatter_daily_ex1.png)
+
+- As daily temperatures rise, fans attendance tends to increase in New York.
 
 ## scatter_yearly()
 - Type `scatter_yearly?` to see valid inputs.
