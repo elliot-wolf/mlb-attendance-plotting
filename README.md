@@ -64,19 +64,7 @@ These packages are automatically installed if the installation instructions are 
 # Example Use
 
 ## bar_attendance_by_time()
-### Arguments:
-- by (str):
-    - 'start time'
-    - 'weekday'
-    - 'month'
-    - 'year'
-
-- team (str): See team_abb_dict for valid inputs
-- year (int): Year between 2012-2019
-- show_league_avg (bool): Set 'True' to add a league average marker
-- attendance (str):
-    - 'raw' : Total Attendance Number
-    - '%' : Attendance as a Percentage of Stadium Capacity Filled
+- Type bar_attendance_by_time? to see valid inputs
 
 
 ```sh
@@ -93,6 +81,8 @@ bar_attendance_by_time(by = "weekday", team = "ATL", year = 2018, show_league_av
 
 
 ## bar_by_team()
+### Arguments:
+
 ```sh
 from mlbattendanceplotter.plotting import bar_by_team
 
