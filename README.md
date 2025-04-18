@@ -65,6 +65,7 @@ These packages are automatically installed if the installation instructions are 
 
 ## bar_attendance_by_time()
 ### Arguments:
+```python
 by (str):
 - 'start time'
 - 'weekday'
@@ -77,6 +78,7 @@ show_league_avg (bool): Set 'True' to add a league average marker
 attendance (str):
 - 'raw' : Total Attendance Number
 - '%' : Attendance as a Percentage of Stadium Capacity Filled
+```
 
 ```sh
 from mlbattendanceplotter.plotting import bar_attendance_by_time
