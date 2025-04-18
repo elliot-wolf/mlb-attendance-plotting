@@ -97,6 +97,8 @@ bar_by_team(y = 'prcp', year = 2012)
 ```
 ![Average Daily Precipitation by City (2012)](images/bar_by_team_ex1.png)
 
+- Miami experienced much larger average daily precipitation in 2012 than any other team. Anaheim and San Diego experienced the least amount of daily precipitation.
+
 ## scatter_daily()
 - Type `scatter_daily?` to see valid inputs.
   
