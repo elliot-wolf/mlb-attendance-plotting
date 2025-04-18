@@ -66,7 +66,7 @@ These packages are automatically installed if the installation instructions are 
 ## bar_attendance_by_time()
 - Type `bar_attendance_by_time?` to see valid inputs.
 
-
+### Example 1
 ```sh
 from mlbattendanceplotter.plotting import bar_attendance_by_time
 
@@ -76,6 +76,7 @@ bar_attendance_by_time(by="weekday", team = "LAD", year = 2012, show_league_avg=
 
 - Further research suggests the Dodgers' high attendance on Tuesdays was due to their Bobblehead promotion nights during the 2012 season.
 
+### Example 2
 ```sh
 from mlbattendanceplotter.plotting import bar_attendance_by_time
 
