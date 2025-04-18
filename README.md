@@ -76,6 +76,15 @@ bar_attendance_by_time(by="weekday", team = "LAD", year = 2012, show_league_avg=
 
 - Further research suggests the Dodgers' high attendance on Tuesdays was due to their Bobblehead promotion nights during the 2012 season.
 
+```sh
+from mlbattendanceplotter.plotting import bar_attendance_by_time
+
+bar_attendance_by_time(by="month", year = 2013, team = "PIT", show_league_avg=True, attendance="raw")
+```
+![Pirates Attendance (raw) by Month (2013)](images/bar_by_time_ex2.png)
+
+- Pirates fans were used to watching a losing team, hence low attendance from March-May. Once they realized they had a talented team, fan attendance increased.
+
 ## bar_by_team()
 - Type `bar_by_team?` to see valid inputs.
 
