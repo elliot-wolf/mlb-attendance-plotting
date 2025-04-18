@@ -71,13 +71,13 @@ These packages are automatically installed if the installation instructions are 
     - 'month'
     - 'year'
 
-team (str): See team_abb_dict for valid inputs
-year (int): Year between 2012-2019
-show_league_avg (bool): Set 'True' to add a league average marker
-attendance (str):
-- 'raw' : Total Attendance Number
-- '%' : Attendance as a Percentage of Stadium Capacity Filled
-```
+- team (str): See team_abb_dict for valid inputs
+- year (int): Year between 2012-2019
+- show_league_avg (bool): Set 'True' to add a league average marker
+- attendance (str):
+    - 'raw' : Total Attendance Number
+    - '%' : Attendance as a Percentage of Stadium Capacity Filled
+
 
 ```sh
 from mlbattendanceplotter.plotting import bar_attendance_by_time
