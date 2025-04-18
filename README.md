@@ -84,7 +84,7 @@ bar_attendance_by_time(by="month", year = 2013, team = "PIT", show_league_avg=Tr
 ```
 ![Pirates Attendance (raw) by Month (2013)](images/bar_by_time_ex2.png)
 
-- Pirates fans were used to watching a losing team, hence low attendance from March-May. Once they realized they had a talented team, fan attendance increased.
+- Pirates fans were used to watching a losing team, explaining the low attendance numbers from March-May. Once fans realized they had a talented team, attendance increased.
 
 ## bar_by_team()
 - Type `bar_by_team?` to see valid inputs.
