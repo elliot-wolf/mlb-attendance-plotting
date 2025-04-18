@@ -64,7 +64,7 @@ These packages are automatically installed if the installation instructions are 
 # Example Use
 
 ## bar_attendance_by_time()
-- Type bar_attendance_by_time? to see valid inputs
+- Type `bar_attendance_by_time?` to see valid inputs
 
 
 ```sh
