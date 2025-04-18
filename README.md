@@ -64,7 +64,7 @@ These packages are automatically installed if the installation instructions are 
 # Example Use
 
 ## bar_attendance_by_time()
-- Type `bar_attendance_by_time?` to see valid inputs
+- Type `bar_attendance_by_time?` to see valid inputs.
 
 
 ```sh
@@ -81,7 +81,7 @@ bar_attendance_by_time(by = "weekday", team = "ATL", year = 2018, show_league_av
 
 
 ## bar_by_team()
-### Arguments:
+- Type `bar_by_team?` to see valid inputs.
 
 ```sh
 from mlbattendanceplotter.plotting import bar_by_team
@@ -90,6 +90,8 @@ bar_by_team(y = "attendance%", year = 2013)
 ```
 
 ## scatter_daily()
+- Type `scatter_daily?` to see valid inputs.
+  
 ```sh
 from mlbattendanceplotter.plotting import scatter_daily
 
@@ -97,6 +99,8 @@ scatter_daily(x = "tavg", y = "attendance", team = "NYY", year = 2018, lobf = Tr
 ```
 
 ## scatter_yearly()
+- Type `scatter_yearly?` to see valid inputs.
+
 ```sh
 from mlbattendanceplotter.plotting import scatter_yearly
 
@@ -110,6 +114,8 @@ scatter_yearly(x="pct_walk", y = "attendance%", team = None, year = 2018, lobf=T
 ```
 
 ## scatter_3d()
+- Type `scatter_3d?` to see valid inputs.
+
 ```sh
 from mlbattendanceplotter.plotting import scatter_3d
 
