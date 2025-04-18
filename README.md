@@ -72,7 +72,7 @@ from mlbattendanceplotter.plotting import bar_attendance_by_time
 
 bar_attendance_by_time(by="weekday", team = "LAD", year = 2012, show_league_avg=True, attendance="%")
 ```
-
+![Dodgers Attendance (%) by Day of Week (2012)](images/bar_by_time_ex1.png)
 
 
 ## bar_by_team()
