@@ -74,6 +74,7 @@ bar_attendance_by_time(by="weekday", team = "LAD", year = 2012, show_league_avg=
 ```
 ![Dodgers Attendance (%) by Day of Week (2012)](images/bar_by_time_ex1.png)
 
+- Further research suggests the Dodgers' high attendance on Tuesdays was due to their Bobblehead promotion nights during the 2012 season.
 
 ## bar_by_team()
 - Type `bar_by_team?` to see valid inputs.
