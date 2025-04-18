@@ -65,12 +65,11 @@ These packages are automatically installed if the installation instructions are 
 
 ## bar_attendance_by_time()
 ### Arguments:
-```python
-by (str):
-- 'start time'
-- 'weekday'
-- 'month'
-- 'year'
+- by (str):
+    - 'start time'
+    - 'weekday'
+    - 'month'
+    - 'year'
 
 team (str): See team_abb_dict for valid inputs
 year (int): Year between 2012-2019
