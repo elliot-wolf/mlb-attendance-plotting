@@ -88,12 +88,12 @@ bar_attendance_by_time(by="month", year = 2013, team = "PIT", show_league_avg=Tr
 
 ## bar_by_team()
 - Type `bar_by_team?` to see valid inputs.
-
 ```sh
 from mlbattendanceplotter.plotting import bar_by_team
 
-bar_by_team(y = "attendance%", year = 2013)
+bar_by_team(y = 'prcp', year = 2012)
 ```
+![Average Daily Precipitation by City (2012)](images/bar_by_team_ex1.png)
 
 ## scatter_daily()
 - Type `scatter_daily?` to see valid inputs.
