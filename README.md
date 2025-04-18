@@ -64,6 +64,13 @@ These packages are automatically installed if the installation instructions are 
 # Example Use
 
 ## bar_attendance_by_time()
+### Arguments:
+by (str):
+- 'start time'
+- 'weekday'
+- 'month'
+- 'year'
+
 ```sh
 from mlbattendanceplotter.plotting import bar_attendance_by_time
 
