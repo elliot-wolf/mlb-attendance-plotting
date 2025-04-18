@@ -115,17 +115,15 @@ scatter_daily(x = 'tavg', y = 'attendance', team = 'NYY', year = 2012, lobf=True
 ## scatter_yearly()
 - Type `scatter_yearly?` to see valid inputs.
 
+### Example
 ```sh
 from mlbattendanceplotter.plotting import scatter_yearly
 
-scatter_yearly(x="payroll_est", y = "win_pct", team = None, year = None, lobf=True)
+scatter_yearly(x='pct_walk', y='attendance%', year = 2013, lobf=True)
 ```
+![% of People who Commute to Work via Walking vs. Attendance (%) (2013)](images/scatter_yearly_ex1.png)
 
-```sh
-from mlbattendanceplotter.plotting import scatter_yearly
-
-scatter_yearly(x="pct_walk", y = "attendance%", team = None, year = 2018, lobf=True)
-```
+- The proportion of people who commute to work via walking is somewhat correlated to fan attendance. In 2013, cities with larger proportions of people who commuted to work by walking had better MLB attendance than cities with smaller proportions of people who walk to work.
 
 ## scatter_3d()
 - Type `scatter_3d?` to see valid inputs.
