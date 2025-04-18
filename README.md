@@ -128,11 +128,15 @@ scatter_yearly(x='pct_walk', y='attendance%', year = 2013, lobf=True)
 ## scatter_3d()
 - Type `scatter_3d?` to see valid inputs.
 
+### Example
 ```sh
 from mlbattendanceplotter.plotting import scatter_3d
 
-scatter_3d(x = "win_pct", y = "payroll_est", z = "attendance%", team = None, year = None, time = "yearly")
+scatter_3d(x="payroll_est", y = "win_pct", z = "attendance%", time = "yearly")
 ```
+![Effects of Estimated Payroll ($), Team Win Percentage (%) on Stadium Capacity Filled (%)](images/scatter_3d_ex1.png)
+
+- Over the course of 2012-2019, teams who spend more money on their roster and had higher winning percentages drew more fans to games. This plot shows the impact of team spending and performance on stadium attendance.
 
 # Troubleshooting & Additional References
 
