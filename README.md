@@ -25,6 +25,7 @@ This project was designed with the goal of allowing the user to plot attendance 
     │   └── clean_weather_data.ipynb                
     └── README.md
     └── setup.py
+    └── images                            # Folder for images in README.md
 >
 
 
